@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+ <filter id="paper"><feTurbulence baseFrequency=".016" numOctaves="3" seed="22" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer></filter>
+ <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#73888a"/><stop offset=".52" stop-color="#d8c5a1"/><stop offset="1" stop-color="#e9ddc7"/></linearGradient>
+ <linearGradient id="wave" x1="0" x2="1"><stop stop-color="#536f7f"/><stop offset=".5" stop-color="#c9a45d"/><stop offset="1" stop-color="#8b5c3f"/></linearGradient>
+</defs>
+<rect width="1920" height="1080" fill="url(#sky)"/><rect width="1920" height="1080" filter="url(#paper)"/>
+<path d="M0 650 C180 520 310 420 520 470 C720 520 790 650 970 620 C1160 590 1250 420 1460 430 C1630 440 1760 540 1920 590 V1080 H0Z" fill="#4f6e6a" opacity=".32"/>
+<path d="M0 790 C250 710 430 810 680 790 C940 770 1080 660 1320 710 C1550 760 1700 730 1920 760 V1080 H0Z" fill="#526e7f" opacity=".22"/>
+<path d="M0 895 C390 810 620 960 960 875 C1290 790 1510 880 1920 820 V1080 H0Z" fill="#71513d" opacity=".15"/>
+<!-- sound ribbons -->
+<g fill="none" stroke="url(#wave)" stroke-linecap="round">
+ <path d="M-40 420 C210 260 360 620 610 430 S1010 250 1250 430 S1650 590 1960 330" stroke-width="12" opacity=".34"/>
+ <path d="M-40 470 C220 320 390 660 650 470 S1040 300 1280 470 S1660 650 1960 390" stroke-width="4" opacity=".62"/>
+ <path d="M-40 520 C260 360 430 700 690 520 S1080 350 1320 520 S1700 700 1960 450" stroke-width="2" opacity=".72" stroke-dasharray="5 14"/>
+</g>
+<!-- erhu -->
+<g transform="translate(160 330)" stroke="#4d3125" stroke-width="7" fill="none" opacity=".78">
+ <path d="M92 35 V390"/><path d="M122 36 V385" stroke-width="2"/><rect x="55" y="360" width="80" height="90" rx="14" fill="#7d5139" fill-opacity=".48"/><path d="M90 55 L135 15"/><circle cx="136" cy="15" r="9" fill="#4d3125"/>
+</g>
+<!-- pipa -->
+<g transform="translate(470 280) rotate(-5)" stroke="#5b3c2c" stroke-width="5" fill="#8d5a3b" fill-opacity=".35" opacity=".82">
+ <path d="M100 0 C60 40 52 95 70 145 C20 215 15 350 100 470 C185 350 180 215 130 145 C148 95 140 40 100 0Z"/>
+ <path d="M100 0 V500" fill="none"/><path d="M60 210 H140 M48 270 H152 M42 330 H158 M55 390 H145" fill="none" stroke-width="2"/>
+</g>
+<!-- matouqin -->
+<g transform="translate(1440 250)" stroke="#473026" stroke-width="6" fill="none" opacity=".82">
+ <path d="M105 70 V430"/><path d="M145 76 V430" stroke-width="2"/><path d="M70 395 Q105 350 140 395 L145 470 H65Z" fill="#7a4b36" fill-opacity=".4"/>
+ <path d="M105 70 C70 38 82 0 112 10 C135 20 150 42 136 65 C156 70 166 82 170 105 C147 95 128 86 105 70Z" fill="#473026" fill-opacity=".62"/>
+</g>
+<!-- lusheng -->
+<g transform="translate(1090 310)" stroke="#6a5133" stroke-width="7" opacity=".8">
+ <path d="M40 320 V40 M75 320 V10 M110 320 V70 M145 320 V30 M180 320 V90 M215 320 V55"/><path d="M15 310 H235" stroke-width="24"/><path d="M125 312 V460"/>
+</g>
+<!-- dombra -->
+<g transform="translate(750 320) rotate(6)" stroke="#5c3b29" stroke-width="5" fill="#a26b42" fill-opacity=".3" opacity=".82">
+ <path d="M90 200 C15 250 15 400 90 480 C165 400 165 250 90 200Z"/><path d="M90 0 V480"/><path d="M55 250 H125 M45 310 H135 M48 370 H132" fill="none" stroke-width="2"/>
+</g>
+<ellipse cx="960" cy="530" rx="680" ry="330" fill="#f4ead7" opacity=".35"/>
+<text x="92" y="1000" fill="#71513d" opacity=".42" font-size="25" font-family="serif">声随山河走 · 乐随地域流 · 多元共生</text>
+</svg>

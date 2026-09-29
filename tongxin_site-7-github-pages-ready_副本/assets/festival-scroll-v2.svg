@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+ <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".012 .06" numOctaves="3" seed="48" result="n"/><feComponentTransfer><feFuncA type="table" tableValues="0 .1"/></feComponentTransfer></filter>
+ <radialGradient id="fire"><stop stop-color="#f2c46a" stop-opacity=".95"/><stop offset=".35" stop-color="#a83d31" stop-opacity=".6"/><stop offset="1" stop-color="#a83d31" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1920" height="1080" fill="#ead9b9"/>
+<path d="M0 610 230 391 435 608 645 335 873 620 1105 362 1325 601 1590 348 1920 580v500H0Z" fill="#6f8d74" opacity=".34"/>
+<path d="M0 760c280-102 466-52 637 14 233 91 446 86 650 1 200-83 400-84 633 28v277H0Z" fill="#557687" opacity=".25"/>
+<ellipse cx="960" cy="512" rx="615" ry="410" fill="#f4ead8" opacity=".72"/>
+<!-- central fire glow -->
+<circle cx="960" cy="560" r="285" fill="url(#fire)" opacity=".5"/>
+<g transform="translate(890 425)"><path d="M70 0c100 108 113 190 55 270-39 53-89 62-125 33-55-45-42-118 16-181 45-49 45-75 54-122Z" fill="#a83d31"/><path d="M84 101c51 63 49 109 18 144-21 23-54 21-70-2-24-35-4-72 19-100 20-24 25-32 33-42Z" fill="#e4b65c"/></g>
+<!-- ring -->
+<ellipse cx="960" cy="560" rx="690" ry="410" fill="none" stroke="#c59b51" stroke-width="3" opacity=".68"/>
+<ellipse cx="960" cy="560" rx="710" ry="430" fill="none" stroke="#a83d31" stroke-width="2" stroke-dasharray="5 19" opacity=".38"/>
+<!-- tiny gathering figures -->
+<g fill="#3c3028" opacity=".74">
+ <g transform="translate(0 0)">
+  <circle cx="665" cy="590" r="10"/><path d="M655 604h20l14 45h-48Z"/>
+  <circle cx="735" cy="680" r="10"/><path d="M725 694h20l14 45h-48Z"/>
+  <circle cx="865" cy="730" r="10"/><path d="M855 744h20l14 45h-48Z"/>
+  <circle cx="1055" cy="730" r="10"/><path d="M1045 744h20l14 45h-48Z"/>
+  <circle cx="1185" cy="680" r="10"/><path d="M1175 694h20l14 45h-48Z"/>
+  <circle cx="1255" cy="590" r="10"/><path d="M1245 604h20l14 45h-48Z"/>
+ </g>
+</g>
+<!-- eight emblem nodes -->
+<g stroke="#c59b51" stroke-width="4" fill="#f5e8cf" fill-opacity=".7">
+ <circle cx="308" cy="470" r="80"/><circle cx="470" cy="244" r="80"/><circle cx="778" cy="132" r="80"/><circle cx="1142" cy="132" r="80"/><circle cx="1450" cy="244" r="80"/><circle cx="1612" cy="470" r="80"/><circle cx="1370" cy="836" r="80"/><circle cx="550" cy="836" r="80"/>
+</g>
+<g font-family="serif" font-size="52" text-anchor="middle" fill="#71513d" opacity=".85">
+ <text x="308" y="488">马</text><text x="470" y="262">水</text><text x="778" y="150">火</text><text x="1142" y="150">灯</text><text x="1450" y="262">骑</text><text x="1612" y="488">萨</text><text x="1370" y="854">鼓</text><text x="550" y="854">傩</text>
+</g>
+<!-- clouds -->
+<path d="M60 155c95 44 149-16 234 10 90 27 137 72 234 39M1395 166c92-59 160 4 248-15 91-20 140-66 236-19" fill="none" stroke="#f4ead8" stroke-width="28" opacity=".42"/>
+<rect width="1920" height="1080" filter="url(#paper)"/>
+</svg>
