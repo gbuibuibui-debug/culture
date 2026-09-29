@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+ <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".009 .055" numOctaves="3" seed="31" result="n"/><feComponentTransfer><feFuncA type="table" tableValues="0 .11"/></feComponentTransfer></filter>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#647f83"/><stop offset=".58" stop-color="#d8cfb8"/><stop offset="1" stop-color="#e9ddc4"/></linearGradient>
+</defs>
+<rect width="1920" height="1080" fill="url(#sky)"/>
+<path d="M0 640 260 382 445 612 700 302 955 626 1230 366 1498 620 1745 348 1920 518v562H0Z" fill="#557687" opacity=".38"/>
+<path d="M0 732c225-110 413-92 602-1 185 89 344 96 525 20 210-88 431-103 793 46v283H0Z" fill="#6f8d74" opacity=".3"/>
+<path d="M0 842c266-77 480-45 693 45 215 91 492 68 713-18 202-79 345-39 514 34v177H0Z" fill="#d2bc91" opacity=".78"/>
+<ellipse cx="960" cy="510" rx="610" ry="365" fill="#f4ead8" opacity=".74"/>
+<!-- sound trajectory -->
+<path d="M-30 650C230 505 395 558 560 606c238 70 349-41 513-132 178-99 354-74 510 19 162 96 253 106 385 18" fill="none" stroke="#c59b51" stroke-width="10" opacity=".64"/>
+<path d="M-20 700C220 555 418 590 592 639c224 64 360-23 505-104 186-105 357-83 524 23 136 87 236 86 329 27" fill="none" stroke="#a83d31" stroke-width="3" stroke-dasharray="3 18" opacity=".55"/>
+<!-- instruments -->
+<g stroke="#4e3429" fill="none" opacity=".82" stroke-width="8">
+ <g transform="translate(115 190)"><path d="M120 40v520"/><rect x="70" y="500" width="105" height="120" rx="20" fill="#71513d" fill-opacity=".2"/><circle cx="120" cy="20" r="14" fill="#a83d31" stroke="none"/><path d="M128 155c48 88 70 181 56 281" stroke-width="3"/></g>
+ <g transform="translate(400 200)"><path d="M150 5v610"/><path d="M150 110c-110 50-140 182-91 302 34 82 96 130 91 202 5-72 57-120 91-202 49-120 19-252-91-302Z" fill="#c59b51" fill-opacity=".12"/><path d="M92 227h116M74 300h152M71 375h158M91 451h118" stroke-width="3" opacity=".7"/></g>
+ <g transform="translate(1288 172)"><path d="M135 60v470"/><path d="M135 60c-42-69-101-68-112-25 38 12 70 28 112 66"/><path d="M135 510l-83 130h166Z" fill="#71513d" fill-opacity=".2"/></g>
+ <g transform="translate(1570 168)"><path d="M35 82v510M82 42v550M129 12v580M176 72v520M223 112v480"/><rect x="10" y="510" width="240" height="38" fill="#476d63" fill-opacity=".35"/></g>
+</g>
+<!-- cranes and clouds -->
+<g fill="none" stroke="#2c2823" stroke-width="3" opacity=".6"><path d="M720 112q40-31 82 0q39-31 78 0"/><path d="M1006 142q32-25 66 0q31-25 64 0"/></g>
+<path d="M220 160c100 40 135-13 211 9 83 24 130 66 224 35M1280 123c101-48 161 15 240-3 97-22 153-56 252-9" fill="none" stroke="#f4ead8" stroke-width="24" opacity=".32"/>
+<rect width="1920" height="1080" filter="url(#paper)"/>
+</svg>

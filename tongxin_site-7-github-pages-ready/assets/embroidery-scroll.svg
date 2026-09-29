@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+ <filter id="paper"><feTurbulence baseFrequency=".018" numOctaves="3" seed="12" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .12"/></feComponentTransfer></filter>
+ <pattern id="stitch" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(12)"><path d="M0 22 H44" stroke="#9e6a45" stroke-opacity=".08"/><path d="M22 0 V44" stroke="#9e6a45" stroke-opacity=".05"/></pattern>
+ <linearGradient id="wash" x1="0" x2="1"><stop stop-color="#274942"/><stop offset=".28" stop-color="#7d3d31"/><stop offset=".58" stop-color="#d5b367"/><stop offset=".8" stop-color="#496b78"/><stop offset="1" stop-color="#513b2e"/></linearGradient>
+</defs>
+<rect width="1920" height="1080" fill="#f3ead8"/><rect width="1920" height="1080" fill="url(#stitch)"/><rect width="1920" height="1080" filter="url(#paper)" opacity=".9"/>
+<path d="M0 790 C180 720 260 650 410 690 C560 730 590 830 760 820 C930 810 1010 690 1200 710 C1400 730 1490 860 1920 760 V1080 H0Z" fill="#456f69" opacity=".28"/>
+<path d="M0 875 C260 815 470 940 710 880 C930 825 1030 720 1270 790 C1480 850 1680 870 1920 840 V1080 H0Z" fill="#5b7686" opacity=".18"/>
+<g fill="none" stroke-linecap="round">
+ <path d="M30 180 C250 75 420 310 610 180 S1020 50 1210 170 S1580 320 1890 120" stroke="#b8894b" stroke-width="5" opacity=".48" stroke-dasharray="2 14"/>
+ <path d="M70 915 C350 790 530 1000 850 865 S1420 760 1820 920" stroke="#b33c31" stroke-width="4" opacity=".32" stroke-dasharray="3 15"/>
+</g>
+<!-- butterfly -->
+<g transform="translate(190 360) rotate(-10)" stroke="#d7b86f" stroke-width="4" fill="#9d3d32" fill-opacity=".28">
+ <path d="M105 130 C0 5 -75 165 62 245 C82 256 97 243 105 218Z"/>
+ <path d="M115 130 C220 5 295 165 158 245 C138 256 123 243 115 218Z"/>
+ <path d="M90 220 C25 248 45 345 104 290Z"/>
+ <path d="M130 220 C195 248 175 345 116 290Z"/>
+ <path d="M110 100 V300" stroke="#b8894b" stroke-width="12"/>
+</g>
+<!-- floral / auspicious -->
+<g transform="translate(1550 210)" stroke="#b8894b" stroke-width="3" fill="#547483" fill-opacity=".24">
+ <circle cx="110" cy="110" r="30"/>
+ <ellipse cx="110" cy="25" rx="34" ry="72"/><ellipse cx="110" cy="195" rx="34" ry="72"/>
+ <ellipse cx="25" cy="110" rx="72" ry="34"/><ellipse cx="195" cy="110" rx="72" ry="34"/>
+ <ellipse transform="rotate(45 110 110)" cx="110" cy="25" rx="26" ry="62"/><ellipse transform="rotate(135 110 110)" cx="110" cy="25" rx="26" ry="62"/>
+</g>
+<!-- zhuang geometric ribbon -->
+<g transform="translate(80 70)" fill="none" stroke="#d2a654" stroke-width="4" opacity=".58">
+ <path d="M0 0 l42 42 42-42 42 42 42-42 42 42 42-42 42 42 42-42 42 42"/>
+ <path d="M0 24 l42 42 42-42 42 42 42-42 42 42 42-42 42 42 42-42 42 42"/>
+</g>
+<!-- fire totem -->
+<g transform="translate(1640 690)" fill="#a93f31" fill-opacity=".34" stroke="#d1a859" stroke-width="3">
+ <path d="M95 0 C135 80 210 115 160 200 C130 250 55 245 25 185 C0 135 45 100 55 50 C75 78 85 92 95 120 C110 80 104 45 95 0Z"/>
+ <path d="M96 98 C127 138 122 190 95 208 C64 188 56 145 96 98Z" fill="#d2a654" fill-opacity=".5"/>
+</g>
+<!-- jiangnan bird and flower -->
+<g transform="translate(1370 760)" stroke="#466f65" stroke-width="3" fill="none" opacity=".62">
+ <path d="M0 190 C55 120 100 82 180 20"/><path d="M90 110 C45 90 20 65 12 40 C50 42 82 60 105 90"/><path d="M136 65 C165 40 205 34 240 55 C205 82 165 91 136 65"/>
+ <circle cx="185" cy="15" r="12" fill="#b33c31" stroke="none"/>
+</g>
+<ellipse cx="960" cy="515" rx="620" ry="350" fill="#f6efdf" opacity=".82"/>
+<rect x="390" y="200" width="1140" height="630" rx="90" fill="#f6efdf" opacity=".18" stroke="#c9a45d" stroke-opacity=".38"/>
+<text x="95" y="1000" fill="#71513d" opacity=".38" font-size="25" font-family="serif">针线为路 · 纹样为史 · 同源共生</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".012 .08" numOctaves="3" seed="19" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .09"/></feComponentTransfer></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
+  <linearGradient id="wash" x1="0" x2="1"><stop stop-color="#354f49" stop-opacity=".62"/><stop offset=".42" stop-color="#efe1c5" stop-opacity=".7"/><stop offset="1" stop-color="#8e4938" stop-opacity=".55"/></linearGradient>
+  <pattern id="geo" width="58" height="58" patternUnits="userSpaceOnUse"><path d="M29 3L55 29 29 55 3 29Z" fill="none" stroke="#c59b51" stroke-width="2" opacity=".55"/><circle cx="29" cy="29" r="5" fill="#a83d31" opacity=".62"/></pattern>
+  <pattern id="stitch" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 9h18M9 0v18" stroke="#6f8d74" stroke-width=".6" opacity=".18"/></pattern>
+</defs>
+<rect width="1920" height="1080" fill="#f3e7cf"/>
+<rect width="1920" height="1080" fill="url(#stitch)"/>
+<path d="M0 650C230 520 385 565 545 600s360 105 555 22c210-89 318-202 520-145 127 36 209 114 300 184v419H0Z" fill="#6f8d74" opacity=".38"/>
+<path d="M0 775c258-118 430-55 620 18 228 88 444 105 678 7 190-80 365-104 622 26v254H0Z" fill="#557687" opacity=".28"/>
+<path d="M95 560c132-187 270-285 418-287 153-3 237 94 354 230-193-72-322-75-488-22-92 29-171 58-284 79Z" fill="#557687" opacity=".22"/>
+<path d="M1285 523c165-238 328-318 520-226 61 29 99 64 115 89v261c-150-81-289-132-398-128-86 3-154 17-237 4Z" fill="#476d63" opacity=".2"/>
+<!-- embroidered side bands -->
+<rect x="0" y="0" width="258" height="1080" fill="#203c3c" opacity=".9"/>
+<rect x="34" y="34" width="188" height="1012" rx="92" fill="url(#geo)" opacity=".88"/>
+<rect x="1676" y="0" width="244" height="1080" fill="#7f302b" opacity=".78"/>
+<rect x="1708" y="38" width="180" height="1002" rx="90" fill="url(#geo)" opacity=".88"/>
+<!-- large floral motifs -->
+<g transform="translate(305 165)" fill="none" stroke="#c59b51" stroke-width="5" opacity=".85">
+ <path d="M0 93C84-15 179-21 248 73c-57 1-93 24-124 62-31-37-69-58-124-42Z" fill="#a83d31" fill-opacity=".27"/>
+ <path d="M124 135c-82 55-97 132-54 223 39-49 78-62 126-54-12-74-5-121 42-166-49-19-80-16-114-3Z" fill="#557687" fill-opacity=".25"/>
+ <path d="M124 135c75 55 91 132 47 223-38-49-77-62-125-54 11-73 4-120-42-166 47-19 79-16 120-3Z" transform="translate(248 0) scale(-1 1)" fill="#6f8d74" fill-opacity=".27"/>
+ <circle cx="124" cy="135" r="27" fill="#c59b51" fill-opacity=".5"/>
+</g>
+<g transform="translate(1418 150) scale(.92)" fill="none" stroke="#d0aa61" stroke-width="5" opacity=".86">
+ <path d="M150 0c38 58 33 112-14 162 61-10 111 13 151 69-69 8-110 42-126 101-33-54-81-75-144-64 33-60 28-113-16-160 66 2 112-28 149-108Z" fill="#f0cf7b" fill-opacity=".22"/>
+ <circle cx="150" cy="174" r="31" fill="#a83d31" fill-opacity=".33"/>
+</g>
+<!-- central quiet paper field -->
+<ellipse cx="964" cy="512" rx="590" ry="365" fill="#f7edda" opacity=".77"/>
+<path d="M425 290C705 230 1197 207 1504 310" fill="none" stroke="#c59b51" stroke-width="4" stroke-dasharray="3 18" opacity=".55"/>
+<path d="M429 741c269 68 710 85 1073-23" fill="none" stroke="#a83d31" stroke-width="3" stroke-dasharray="4 19" opacity=".38"/>
+<!-- butterfly mother linework -->
+<g transform="translate(805 718)" stroke="#71513d" fill="none" stroke-width="4" opacity=".68">
+ <path d="M150 58C82-24 5-23 0 40c-6 73 82 80 150 35M150 58c68-82 145-81 150-18 6 73-82 80-150 35"/>
+ <path d="M150 58c-31 67-24 128 0 176 24-48 31-109 0-176Z" fill="#c59b51" fill-opacity=".24"/>
+ <path d="M105 112c-29 18-52 48-61 84M195 112c29 18 52 48 61 84"/>
+</g>
+<!-- cloud ribbons -->
+<path d="M294 82c94 57 165-24 266 7s132 78 220 40" fill="none" stroke="#d6b16b" stroke-width="11" opacity=".35"/>
+<path d="M1234 94c92-63 162 12 236-9 91-26 120-70 235-25" fill="none" stroke="#d6b16b" stroke-width="10" opacity=".35"/>
+<rect width="1920" height="1080" filter="url(#paper)" opacity=".6"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+ <filter id="paper"><feTurbulence baseFrequency=".016" numOctaves="3" seed="33" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer></filter>
+ <radialGradient id="fireglow"><stop stop-color="#e9b45c" stop-opacity=".62"/><stop offset=".45" stop-color="#ad5031" stop-opacity=".25"/><stop offset="1" stop-color="#331f17" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1920" height="1080" fill="#e9ddc7"/><rect width="1920" height="1080" filter="url(#paper)"/>
+<path d="M0 680 C260 530 470 650 720 620 C950 590 1080 420 1320 470 C1560 520 1660 600 1920 560 V1080 H0Z" fill="#536e68" opacity=".26"/>
+<path d="M0 820 C280 730 520 890 790 820 C1070 750 1260 720 1530 790 C1700 835 1800 830 1920 805 V1080 H0Z" fill="#5c7380" opacity=".16"/>
+<circle cx="960" cy="520" r="360" fill="url(#fireglow)"/>
+<g fill="none" stroke="#c9a45d" stroke-opacity=".44">
+ <circle cx="960" cy="520" r="360" stroke-width="3"/><circle cx="960" cy="520" r="370" stroke-dasharray="3 12"/><circle cx="960" cy="520" r="250" stroke-dasharray="2 16"/>
+</g>
+<!-- fire -->
+<g transform="translate(860 310)" stroke="#d8a354" stroke-width="4">
+ <path d="M100 0 C160 90 220 130 180 230 C150 310 48 315 12 228 C-10 170 42 130 65 70 C78 105 92 122 100 160 C128 112 118 62 100 0Z" fill="#b94431" fill-opacity=".65"/>
+ <path d="M101 108 C138 155 132 225 98 250 C60 225 53 165 101 108Z" fill="#e7b95f" fill-opacity=".8"/>
+ <path d="M30 280 H170 M45 298 H155"/>
+</g>
+<!-- lanterns -->
+<g fill="#b33c31" fill-opacity=".3" stroke="#d1a657" stroke-width="3">
+ <g transform="translate(150 150)"><ellipse cx="50" cy="60" rx="45" ry="55"/><path d="M50 115 v65 M22 40 H78 M18 80 H82"/></g>
+ <g transform="translate(1620 140)"><ellipse cx="50" cy="60" rx="45" ry="55"/><path d="M50 115 v65 M22 40 H78 M18 80 H82"/></g>
+</g>
+<!-- water ripples -->
+<g transform="translate(220 720)" fill="none" stroke="#50798b" stroke-width="4" opacity=".48"><ellipse cx="100" cy="70" rx="100" ry="30"/><ellipse cx="100" cy="70" rx="160" ry="52"/><ellipse cx="100" cy="70" rx="220" ry="74"/></g>
+<!-- horse -->
+<g transform="translate(1430 735)" fill="#6f4a35" fill-opacity=".48" stroke="#5f3e2d" stroke-width="4"><ellipse cx="120" cy="80" rx="95" ry="45"/><path d="M180 60 q70 -70 92 0 q-20 30 -58 25" fill="none"/><path d="M55 110 l-28 95 M95 115 l-10 95 M150 115 l25 95 M185 105 l45 90" fill="none"/><path d="M35 55 q-75 -45 -92 -5" fill="none"/></g>
+<!-- mask -->
+<g transform="translate(1600 400)" stroke="#d0a657" stroke-width="4" fill="#7a3c31" fill-opacity=".28"><path d="M0 0 Q100 -70 200 0 V180 Q100 270 0 180Z"/><ellipse cx="58" cy="85" rx="30" ry="18" fill="#1c1b1a" fill-opacity=".22"/><ellipse cx="142" cy="85" rx="30" ry="18" fill="#1c1b1a" fill-opacity=".22"/><path d="M65 150 Q100 185 135 150" fill="none"/></g>
+<!-- drum tower -->
+<g transform="translate(120 340)" stroke="#72513d" stroke-width="4" fill="#8d6a45" fill-opacity=".24"><path d="M20 210 H230 L200 165 H50Z"/><path d="M50 165 H200 L170 120 H80Z"/><path d="M80 120 H170 L145 75 H105Z"/><path d="M105 75 H145 L125 25Z"/><path d="M75 210 V310 M175 210 V310 M35 310 H215" fill="none"/></g>
+<ellipse cx="960" cy="530" rx="500" ry="350" fill="#f5ead7" opacity=".30"/>
+<text x="90" y="1000" fill="#71513d" opacity=".42" font-size="25" font-family="serif">一团火照见八方节庆 · 一次相聚连接共同记忆</text>
+</svg>
